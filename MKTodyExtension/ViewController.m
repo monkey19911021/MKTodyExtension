@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <NotificationCenter/NotificationCenter.h>
 
 #define GROUP_ID (@"group.MKTodyExtension")
 #define TODO_LIST_ID (@"todoListID")
@@ -39,6 +40,9 @@ NSString *CellId = @"cellId";
     NSUserDefaults *infoDic = [[NSUserDefaults alloc] initWithSuiteName: GROUP_ID];
     [infoDic setObject:todoList forKey:TODO_LIST_ID];
     [infoDic synchronize];
+    
+    //更新今日面板信息，NotificationCenter framework
+    [[NCWidgetController widgetController] setHasContent:YES forWidgetWithBundleIdentifier:@"com.donlinks.MKTodyExtension.MKTodayTarget"];
 }
 
 #pragma mark - 获取 group 数据

@@ -91,6 +91,7 @@ NSString *CellId = @"cellId";
     
     NSString *urlStr = [@"MKToday://" stringByAppendingString: text];
     
+    //打开主应用
     [self.extensionContext openURL:[NSURL URLWithString:urlStr] completionHandler:nil];
 }
 

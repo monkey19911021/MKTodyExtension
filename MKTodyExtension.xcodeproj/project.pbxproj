@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB19F6711D17F6E100F7D8EF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBABA79B1D178B3700E3CC49 /* NotificationCenter.framework */; };
 		FBABA7801D1780F600E3CC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABA77F1D1780F600E3CC49 /* main.m */; };
 		FBABA7831D1780F600E3CC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABA7821D1780F600E3CC49 /* AppDelegate.m */; };
 		FBABA7861D1780F600E3CC49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABA7851D1780F600E3CC49 /* ViewController.m */; };
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB19F6711D17F6E100F7D8EF /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +463,7 @@
 				FBABA7941D1780F600E3CC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBABA7A81D178B3700E3CC49 /* Build configuration list for PBXNativeTarget "MKTodayTarget" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +472,7 @@
 				FBABA7AA1D178B3700E3CC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
